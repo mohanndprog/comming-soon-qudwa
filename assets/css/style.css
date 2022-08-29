@@ -1,0 +1,547 @@
+body {
+    overflow: hidden;
+    font-family: 'SST', sans-serif;
+
+
+}
+
+@font-face {
+    font-family: SST;
+    src: url(../font/sst-arabic-bold.ttf);
+}
+
+img.text-rghit {
+    float: right;
+}
+
+#qudwa h1 {
+    color: #307E27;
+    float: right;
+    text-align: right;
+    margin-right: -109%;
+    font-size: 63px;
+    margin-top: 12%;
+    font-weight: bold;
+}
+
+#qudwa h5 {
+    color: #50626C;
+    float: right;
+    text-align: right;
+    margin-right: -109%;
+    font-size: 26px;
+    margin-top: 28%;
+    font-weight: normal;
+}
+
+#qudwa .texttieil {
+    margin-top: -33px;
+}
+
+.logo.text-center img {
+    margin-top: 0;
+}
+
+.logo.text-center {
+    margin-top: 21%;
+}
+
+img.text-rghit {
+    float: right;
+    margin-top: -351px;
+}
+
+img.text-left {
+    margin-top: -716px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #307E27;
+    border-color: #307E27;
+    box-shadow: none;
+}
+
+.btn-primary:focus {
+
+    box-shadow: none;
+}
+
+.logo.text-center img {
+    margin-top: -179px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #307E27;
+    border-color: #307E27;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #307E27;
+}
+
+form {
+    top: 10%;
+    margin-top: 40%;
+    margin-right: -17px;
+}
+
+button.btn.btn-primary {
+    float: right;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: 10px;
+}
+
+button.btn.btn-primary {
+    /* height: 74px; */
+    width: 28%;
+}
+
+.texttieil img {
+    margin-top: 53px;
+    position: relative;
+}
+
+a.svg {
+    /* background: #000; */
+    margin-right: -30px;
+    text-align: right;
+    float: right;
+    margin-top: -4px;
+}
+
+img.app {
+    margin-right: 11%;
+    transform: scale(0.9);
+    /* margin-top: 175px; */
+}
+
+h6.textapp1 {
+    margin-top: -52px !important;
+}
+
+.col-sm-10.social {
+    text-align: right;
+}
+
+.col-sm-10.social {
+    text-align: right;
+    display: in;
+    display: inherit;
+    margin-top: 15px;
+}
+
+.col-sm-6 {
+    margin-right: -78px;
+    margin-top: -5px;
+    padding: 10p;
+    /* margin: 1px; */
+}
+
+.col-sm-6 a {
+    margin: 2px;
+}
+
+h6.textapp {
+    text-align: right;
+    margin: 38px;
+    color: #307E27;
+    font-size: 26px;
+}
+
+.reell span {
+    color: #307E27;
+}
+
+p.reell {
+    text-align: center;
+}
+
+p {
+    /* margin-top: 989px; */
+    margin-bottom: 80px !important;
+    position: relative;
+}
+
+p.reell {
+    margin-top: 100px;
+}
+
+img.text-rghit {
+    float: right;
+    margin-top: -936px !important;
+   
+}
+
+h1 {
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: #50626C;
+    }
+
+    100% {
+        color: #307E27;
+    }
+}
+
+.point {
+    animation: point 1s infinite;
+    transition: point all 10s ease;
+}
+
+@keyframes point {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animation--fade-bg {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+    animation-duration: 12s;
+    animation-name: fade-bg;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+
+}
+
+#qudwa .texttieil {
+    margin-top: -33px;
+}
+
+/* --------------------------- */
+.animate-charcter {
+
+    background-image: -webkit-repeating-linear-gradient(10deg,
+            #307E27 0%,
+            #307E27 20%,
+            #093e06 50%,
+            #093e06 0%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 300% auto;
+    background-clip: text;
+    --text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1s linear infinite alternate both;
+
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 80%;
+    }
+
+
+
+}
+
+/* --------------------------- */
+h6.textapp1 {
+    text-align: center;
+    color: #307E27 !important;
+    font-weight: 600;
+    font-size: 26px !important;
+    margin-right: 285px;
+    margin-bottom: 10px;
+}
+
+.animation--fade-bg {
+    animation: name-of-animation 5s infinite;
+}
+
+.app1 {
+    display: none;
+}
+
+.logo.text-center {
+    margin-top: 15%;
+}
+
+.app {
+    animation: MoveUpDown 4s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    img.text-rghit {
+        float: right;
+        margin-top: -530px !important;
+        /* position: relative; */
+        margin-right: -357px;
+        height: 450px;
+    }
+
+    img.text-left {
+        margin-top: -1169px !important;
+        height: 257px;
+    }
+
+    .logo.text-center img {
+        margin-top: 0 !important;
+        text-align: center;
+        margin-left: 49%;
+    }
+
+    #qudwa h1 {
+        color: #307E27;
+        float: right;
+        text-align: right;
+        margin-right: -88%;
+        font-size: 63px;
+        margin-top: 12%;
+        font-weight: bold;
+    }
+
+    .logo.text-center {
+        margin-top: 24%;
+        /* margin-top: 10px; */
+        margin-right: 303px;
+        text-align: center !important;
+    }
+
+    #qudwa h1 {
+        color: #307E27;
+        float: right;
+        text-align: right;
+        margin-right: -35px;
+        font-size: 48px;
+        margin-top: 12%;
+        font-weight: bold;
+    }
+
+    #qudwa h5 {
+        color: #50626C;
+        float: right;
+        text-align: right;
+        margin-right: -98%;
+        font-size: 26px;
+        margin-top: 29%;
+        font-weight: normal;
+    }
+
+    img.app {
+        display: none;
+    }
+
+    h6.textapp {
+        display: none;
+    }
+
+    form {
+        top: 10%;
+        margin-top: 6%;
+        margin-right: -29px;
+    }
+
+    img.text-left {
+        margin-top: -306px;
+        height: 160px;
+    }
+
+    .col-sm-6 {
+        margin-right: -272px;
+        margin-top: -5px;
+        padding: 10p;
+        /* margin: 1px; */
+    }
+
+    img.text-rghit {
+        float: right;
+
+        margin-right: -27px;
+        height: 205px;
+    }
+
+    .app1 {
+        display: block;
+    }
+
+    img.app1.animation--fade-bg {
+        transform: scale(0.6);
+        margin-top: -108px;
+    }
+
+    img.text-left {
+        margin-top: -987px;
+        height: 160px;
+    }
+
+    .app1 {
+        animation: MoveUpDown 4s linear infinite;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    @keyframes MoveUpDown {
+
+        0%,
+        100% {
+            bottom: 0;
+        }
+
+        50% {
+            bottom: 30px;
+        }
+    }
+
+    p.reell {
+        margin-top: 85px;
+    }
+
+    .app1 {
+        margin-top: 10px !important;
+    }
+
+    h6.textapp1 {
+        text-align: center;
+        color: #307E27 !important;
+        font-weight: 600;
+        font-size: 26px !important;
+        margin-right: -43px;
+        margin-top: -92px;
+        margin-bottom: 10px;
+    }
+
+    p.reell {
+        margin-top: -47px;
+    }
+
+    #qudwa .texttieil {
+        margin-top: -33px;
+        margin: 10px;
+    }
+
+    p.reell {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 59px;
+    }
+}
+
+
+
+/* --------------- point--------- */
+ 
+@keyframes scaling{
+    0%, 100%{
+      transform: scale(0.2);
+      background-color: #307E27;
+    }
+    40%{
+      transform: scale(1);
+      background-color: #ffffff;
+    }
+    50%{
+      transform: scale(1);
+      background-color: #307E27;
+    }
+  }
+  
+  .point {
+      height: 10px;
+      width: 10px;
+      border-radius:50%;
+      transform: scale(0);
+      background-color:rgb(255, 255, 255);
+      animation: scaling 5s ease-in-out infinite;
+      display: inline-block;
+    
+  }
+  
+  .point:nth-child(0){
+    animation-delay:0s;
+
+  }
+  .point:nth-child(1){
+    
+    animation-delay:0.2s;
+  }
+
+  .point:nth-child(2){
+    animation-delay:0.4s;
+  }
+  .point:nth-child(4){
+    animation-delay:0.8s;
+  }
+  .point:nth-child(3){
+    animation-delay:0.6s;
+  }
+
+
+
+ 
+/* --------------- point--------- */
+p.reell {
+    font-size: 13px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 59px;
+}
+@media only screen and (max-width: 991px){
+#qudwa h1 {
+    color: rgb(48, 126, 39);
+    float: right;
+    text-align: right;
+    margin-right: -35px;
+    font-size: 43px;
+    margin-top: 8%;
+    font-weight: bold;
+}
+.col-sm-6 {
+    margin-right: -231px;
+    margin-top: -5px;
+    padding: 10p;
+    /* margin: 1px; */
+}
+}
